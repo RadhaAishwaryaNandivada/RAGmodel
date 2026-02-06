@@ -48,7 +48,7 @@ def get_prompt_and_llm():
     You are a helpful AI assistant.
     verbose control:
     "Provide the answer has to be in bullet points.
-    and each bullet point must not be more than 80 words."
+    and each bullet point must not be more than 200 words and each bullet points have to have a proper sequence. "
     
     Answer the question using ONLY the context below.
     If the answer is not present , say exactly:
