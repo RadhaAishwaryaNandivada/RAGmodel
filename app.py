@@ -64,7 +64,7 @@ def get_prompt_and_llm():
     
     llm = ChatGoogleGenerativeAI(
         model="models/gemini-2.5-flash",
-        temperature=0.3
+        temperature=1.3
         
     )
     return prompt, llm
