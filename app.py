@@ -78,7 +78,7 @@ def answer_question(question):
     return response.content
 def main():
     st.set_page_config(page_title="Chat with PDF - RAG Demo")
-    st.header("📄 Chat with PDF using Gemini")
+    st.header("📄 Chat with PDF")
 
     question = st.text_input("Ask a question from the uploaded PDFs")
 
